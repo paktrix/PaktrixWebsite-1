@@ -151,6 +151,32 @@ export default function About() {
         </div>
       </section>
 
+  <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">
+            Our Team
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div>
+              <div className="text-4xl font-bold text-brand-green mb-2">15+</div>
+              <div className="text-gray-600">Manish Saluja</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-green mb-2">100+</div>
+              <div className="text-gray-600">Nupur Saluja</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-green mb-2">50M+</div>
+              <div className="text-gray-600">Samarth</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold text-brand-green mb-2">98%</div>
+              <div className="text-gray-600">Vamshi</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">
