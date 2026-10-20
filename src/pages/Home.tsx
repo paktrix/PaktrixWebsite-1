@@ -125,7 +125,7 @@ export default function Home() {
                 Manufacturing Partner Network
               </h3>
               <p className="text-gray-600">
-                Access to established manufacturing capabilities. We coordinate specifications, samples and production, and manage your requirement end to end — so you don't have to deal with multiple factories yourself.
+                With manufacturing plants spread across the country, we specialize in a wide variety of packaging solutions under one roof — giving you access to diverse materials, formats, and finishes without the complexity of coordinating multiple vendors.
               </p>
             </div>
             <div className="bg-green-50 rounded-lg p-8 border-2 border-transparent hover:border-brand-green hover:shadow-2xl hover:-translate-y-3 transition-all duration-500 group">
