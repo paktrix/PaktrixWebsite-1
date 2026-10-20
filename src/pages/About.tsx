@@ -157,26 +157,24 @@ export default function About() {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">
             Our Team
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">MS</div>
-              <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
+          <div className="flex flex-col items-center gap-10">
+            <div className="text-center">
+              <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">NS</div>
+              <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
               <div className="text-gray-500 text-sm">Founder & Director</div>
             </div>
-            <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">NS</div>
-              <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
-              <div className="text-gray-500 text-sm">Co-Founder</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">S</div>
-              <div className="font-semibold text-gray-900 mb-1">Samarth</div>
-              <div className="text-gray-500 text-sm">Operations</div>
-            </div>
-            <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">V</div>
-              <div className="font-semibold text-gray-900 mb-1">Vamshi</div>
-              <div className="text-gray-500 text-sm">Client Relations</div>
+            <div className="w-24 h-px bg-gray-200"></div>
+            <div className="grid md:grid-cols-2 gap-10 max-w-md w-full">
+              <div className="text-center">
+                <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">MS</div>
+                <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
+                <div className="text-gray-500 text-sm">Co-Founder</div>
+              </div>
+              <div className="text-center">
+                <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">S</div>
+                <div className="font-semibold text-gray-900 mb-1">Samarth</div>
+                <div className="text-gray-500 text-sm">Operations</div>
+              </div>
             </div>
           </div>
         </div>
