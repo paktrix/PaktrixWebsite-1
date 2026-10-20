@@ -6,6 +6,9 @@ import excellence from '../assets/excellence.png';
 import whatsapp1 from '../assets/WhatsApp_Image_2026-02-16_at_11.56.46.jpeg';
 import whatsapp2 from '../assets/WhatsApp_Image_2026-02-16_at_11.58.31.jpeg';
 import whatsapp3 from '../assets/WhatsApp_Image_2026-03-13_at_12.31.09.jpeg';
+import manishPhoto from '../assets/whatsapp_image_2026-02-02_at_18.12.48.jpeg';
+import nupurPhoto from '../assets/whatsapp_image_2026-02-02_at_18.12.48_(1).jpeg';
+import samarthPhoto from '../assets/whatsapp_image_2026-02-02_at_18.12.49.jpeg';
 
 export default function About() {
   return (
@@ -184,17 +187,17 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <img src={whatsapp3} alt="Manish Saluja" className="w-24 h-24 rounded-full object-cover mx-auto mb-3 shadow-md" />
+              <img src={manishPhoto} alt="Manish Saluja" className="w-24 h-24 rounded-full object-cover mx-auto mb-3 shadow-md" />
               <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
               <div className="text-gray-500 text-sm">Founder & Director</div>
             </div>
             <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">NS</div>
+              <img src={nupurPhoto} alt="Nupur Saluja" className="w-24 h-24 rounded-full object-cover mx-auto mb-3 shadow-md" />
               <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
               <div className="text-gray-500 text-sm">Co-Founder</div>
             </div>
             <div>
-              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">S</div>
+              <img src={samarthPhoto} alt="Samarth" className="w-24 h-24 rounded-full object-cover mx-auto mb-3 shadow-md" />
               <div className="font-semibold text-gray-900 mb-1">Samarth</div>
               <div className="text-gray-500 text-sm">Operations</div>
             </div>
