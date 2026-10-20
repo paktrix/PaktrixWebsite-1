@@ -317,19 +317,18 @@ export default function Home() {
                 For Startups & Growing Businesses
               </span>
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                Packaging Planning & Advisory for Startups
+                Collaborating with Startups in Their Growth Phase
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Build the right packaging before you scale. We help founders and growing businesses make informed packaging decisions — so you avoid costly mistakes and move into production with confidence.
+                We partner with startups and growing businesses through a collaborative model designed for the growth phase — supporting your packaging needs as you scale, with flexibility and a long-term relationship in mind.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  'Requirement assessment',
-                  'Material & structure recommendations',
-                  'Printing & finishing guidance',
-                  'Sampling & costing coordination',
-                  'Production planning',
-                  'Packaging optimisation as you scale',
+                  'Collaborative partnership approach',
+                  'Flexible packaging solutions that scale with you',
+                  'Support across your growth journey',
+                  'Diverse formats through our multi-plant network',
+                  'Priority attention for growing brands',
                 ].map((item) => (
                   <li key={item} className="flex items-center text-gray-700">
                     <span className="w-2 h-2 rounded-full bg-brand-green mr-3 flex-shrink-0" />
@@ -341,7 +340,7 @@ export default function Home() {
                 to="/contact"
                 className="inline-flex items-center px-6 py-3 bg-brand-green text-white rounded-lg font-semibold hover:bg-brand-teal transition-colors"
               >
-                Discuss Your Packaging Plan
+                Start a Conversation
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </div>
@@ -352,8 +351,8 @@ export default function Home() {
                     <Compass className="h-5 w-5 text-brand-green" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Right Material, First Time</h4>
-                    <p className="text-sm text-gray-600">Avoid rework and waste by choosing the correct material and structure before committing to production.</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">A Partnership, Not a Transaction</h4>
+                    <p className="text-sm text-gray-600">We work alongside startups as a long-term packaging partner — invested in your growth, not just a one-off order.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -361,8 +360,8 @@ export default function Home() {
                     <Layers className="h-5 w-5 text-brand-green" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">One Partner, Multiple Options</h4>
-                    <p className="text-sm text-gray-600">Compare paper-based and flexible formats through a single advisor — no need to chase multiple vendors.</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">Solutions That Scale With You</h4>
+                    <p className="text-sm text-gray-600">Our multi-plant network adapts to your changing volumes and formats as your brand grows from launch to scale.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -370,8 +369,8 @@ export default function Home() {
                     <Network className="h-5 w-5 text-brand-green" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Production-Ready Guidance</h4>
-                    <p className="text-sm text-gray-600">We prepare specs, samples and costing so you can move from planning to production smoothly.</p>
+                    <h4 className="font-semibold text-gray-900 mb-1">Priority Attention for Growing Brands</h4>
+                    <p className="text-sm text-gray-600">Startups in our collaboration get hands-on support and responsive communication throughout the engagement.</p>
                   </div>
                 </div>
               </div>
@@ -433,7 +432,7 @@ export default function Home() {
               },
               {
                 question: 'Can you help startups choose the right packaging?',
-                answer: 'Yes. Our packaging advisory helps startups and growing businesses select the right material, structure and specifications before moving into production — covering requirement assessment, material recommendations, printing and finishing guidance, sampling and costing.',
+                answer: 'Yes. We collaborate with startups and growing businesses as a packaging partner during their growth phase — offering flexible solutions, priority attention, and a relationship designed to scale alongside your brand.'
               },
               {
                 question: 'What packaging formats do you coordinate?',
