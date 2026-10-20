@@ -1,4 +1,4 @@
-import { Package, Shield, Leaf, Truck, Award, Palette, DollarSign, Clock } from 'lucide-react';
+import { Package, Shield, Leaf, Truck, Award, Palette, DollarSign, Clock, Users } from 'lucide-react';
 
 interface WhyChooseUsProps {
   title: string;
@@ -23,8 +23,8 @@ export default function WhyChooseUs({ title, subtitle }: WhyChooseUsProps) {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
               <Award className="h-8 w-8 text-brand-green" />
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-gray-900">ISO Certification</h3>
-            <p className="text-gray-600">ISO certified manufacturing facilities ensuring top quality</p>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Quality Coordination</h3>
+            <p className="text-gray-600">Quality coordination across certified manufacturing partners</p>
           </div>
 
           <div className="text-center">
@@ -65,6 +65,14 @@ export default function WhyChooseUs({ title, subtitle }: WhyChooseUsProps) {
             </div>
             <h3 className="text-xl font-semibold mb-2 text-gray-900">Fast Turnaround</h3>
             <p className="text-gray-600">Quick production and delivery times for urgent needs</p>
+          </div>
+
+          <div className="text-center">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
+              <Users className="h-8 w-8 text-brand-green" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Single Point of Contact</h3>
+            <p className="text-gray-600">One partner managing specs, samples, production and delivery</p>
           </div>
 
           <div className="text-center">

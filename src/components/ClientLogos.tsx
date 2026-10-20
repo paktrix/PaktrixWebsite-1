@@ -52,7 +52,7 @@ export default function ClientLogos() {
             We Are Trusted By
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Trusted by some of India's most recognized brands across food, beauty, fashion, and lifestyle.
+            Brands that source their packaging through PAKTRIX and our manufacturing partner network — across food, beauty, fashion, and lifestyle.
           </p>
         </div>
       </div>

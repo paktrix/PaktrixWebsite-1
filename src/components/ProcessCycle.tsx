@@ -17,38 +17,38 @@ interface ProcessStep {
 const steps: ProcessStep[] = [
   {
     number: '01',
-    title: 'Concept & Design',
-    description: 'Creative designs that align with your brand vision and product requirements.',
+    title: 'Requirement Assessment',
+    description: 'We start by understanding your product, industry, volume and branding goals so we can recommend the right packaging format and material.',
     image: conceptImage,
   },
   {
     number: '02',
-    title: 'Development',
-    description: 'Starting the packaging journey with a product that contains the quintessence of a brand.',
+    title: 'Recommendation & Specification',
+    description: 'We recommend the suitable packaging structure, material and specifications — drawing on our manufacturing partner network to match your needs.',
     image: developmentImage,
   },
   {
     number: '03',
-    title: 'Testing',
-    description: 'Ensuring performance, functionality and durability through rigorous quality checks.',
+    title: 'Quotation',
+    description: 'You receive a clear, consolidated quotation covering production, printing and finishing — coordinated through one point of contact.',
     image: testingImage,
   },
   {
     number: '04',
-    title: 'Brand Experience',
-    description: 'Enhancing customer experience through packaging that drives your brand story.',
+    title: 'Sample & Artwork Approvals',
+    description: 'We coordinate samples and artwork approvals with our manufacturing partners so you can verify structure, print and finish before production.',
     image: brandExperience,
   },
   {
     number: '05',
-    title: 'Delivery',
-    description: 'Timely delivery with efficient logistics ensuring your products reach you on time.',
+    title: 'Production Coordination',
+    description: 'Production is managed through our partner facilities with quality checks at every stage — you deal with PAKTRIX, not multiple factories.',
     image: deliveryImage,
   },
   {
     number: '06',
-    title: 'Sustainable Practices',
-    description: 'Reducing environmental impact through responsibly sourced materials.',
+    title: 'Dispatch & Delivery',
+    description: 'We coordinate packing and logistics so your order reaches you on time, ready to use.',
     image: sustainablePractice,
   },
 ];
@@ -83,10 +83,10 @@ export default function ProcessCycle() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Our Packaging Development Process
+            How We Work — From Brief to Delivery
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our streamlined packaging process ensures quality, precision, and timely delivery at every stage. From design and material selection to printing and final production, we create packaging solutions tailored to your business needs.
+            We manage your packaging requirement end to end — from the first briefing through to dispatch. You deal with a single point of contact at PAKTRIX while we coordinate specifications, samples, production and delivery across our manufacturing partner network.
           </p>
         </div>
 
