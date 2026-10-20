@@ -1,6 +1,11 @@
 import { Target, Eye, Award, Users, Globe, TrendingUp } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import aboutUs from '../assets/aboutUs.jpg';
+import paktrixServices from '../assets/PAKTRIXServices.jpeg';
+import excellence from '../assets/excellence.png';
+import whatsapp1 from '../assets/WhatsApp_Image_2026-02-16_at_11.56.46.jpeg';
+import whatsapp2 from '../assets/WhatsApp_Image_2026-02-16_at_11.58.31.jpeg';
+import whatsapp3 from '../assets/WhatsApp_Image_2026-03-13_at_12.31.09.jpeg';
 
 export default function About() {
   return (
@@ -46,10 +51,31 @@ export default function About() {
                 </p> */}
               </div>
             </div>
-            <div>
+            <div className="grid grid-cols-2 gap-4">
               <img
                 src={aboutUs}
                 alt="Manufacturing Facility"
+                className="rounded-lg shadow-md w-full col-span-2"
+              />
+              <img
+                src={paktrixServices}
+                alt="PAKTRIX Services"
+                className="rounded-lg shadow-md w-full h-full object-cover"
+              />
+              <img
+                src={excellence}
+                alt="Excellence in Packaging"
+                className="rounded-lg shadow-md w-full h-full object-cover"
+              />
+              <img
+                src={whatsapp1}
+                alt="Packaging work"
+                className="rounded-lg shadow-md w-full h-full object-cover"
+              />
+              <img
+                src={whatsapp2}
+                alt="Packaging work"
+                className="rounded-lg shadow-md w-full h-full object-cover"
               />
             </div>
           </div>
@@ -158,20 +184,24 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-brand-green mb-2">15+</div>
-              <div className="text-gray-600">Manish Saluja</div>
+              <img src={whatsapp3} alt="Manish Saluja" className="w-24 h-24 rounded-full object-cover mx-auto mb-3 shadow-md" />
+              <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
+              <div className="text-gray-500 text-sm">Founder & Director</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-green mb-2">100+</div>
-              <div className="text-gray-600">Nupur Saluja</div>
+              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">NS</div>
+              <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
+              <div className="text-gray-500 text-sm">Co-Founder</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-green mb-2">50M+</div>
-              <div className="text-gray-600">Samarth</div>
+              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">S</div>
+              <div className="font-semibold text-gray-900 mb-1">Samarth</div>
+              <div className="text-gray-500 text-sm">Operations</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-brand-green mb-2">98%</div>
-              <div className="text-gray-600">Vamshi</div>
+              <div className="w-24 h-24 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">V</div>
+              <div className="font-semibold text-gray-900 mb-1">Vamshi</div>
+              <div className="text-gray-500 text-sm">Client Relations</div>
             </div>
           </div>
         </div>
