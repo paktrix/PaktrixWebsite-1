@@ -133,10 +133,10 @@ export default function Home() {
                 <Compass className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-brand-green transition-colors duration-300">
-                Packaging Advisory for Startups
+                Startup Collaboration Program
               </h3>
               <p className="text-gray-600">
-                We help startups and growing businesses choose the right packaging material, structure and specifications — so you make informed decisions before moving into production.
+                We partner with startups and growing businesses during their growth phase — collaborating on packaging needs with a flexible, long-term approach designed to scale alongside your brand.
               </p>
             </div>
           </div>
