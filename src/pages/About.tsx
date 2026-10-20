@@ -1,4 +1,4 @@
-import { Target, Eye, Award, Users, Globe, TrendingUp } from 'lucide-react';
+import { Target, Eye, Award, Users, Globe, TrendingUp, Briefcase } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import aboutUs from '../assets/aboutUs.jpg';
 import nupurPic from '../assets/nupur_pic.jpeg';
@@ -160,24 +160,39 @@ export default function About() {
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-12 text-center">
             Our Team
           </h2>
-          <div className="flex flex-col items-center gap-10">
-            <div className="text-center">
-              <img src={nupurPic} alt="Nupur Saluja" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
-              <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
-              <div className="text-gray-500 text-sm">Founder & Director</div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-2xl shadow-lg p-8 text-center group hover:shadow-2xl transition-shadow duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <img src={manishPic} alt="Manish Saluja" className="w-32 h-32 rounded-full object-cover object-top border-4 border-brand-green/20 group-hover:scale-105 transition-transform duration-300" />
+              </div>
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <Briefcase className="h-4 w-4 text-brand-green" />
+                <span className="text-sm font-semibold text-brand-green uppercase tracking-wide">CEO</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Manish Saluja</h3>
+              <p className="text-gray-600 leading-relaxed">25 years of entrepreneurial experience with 15+ years in the packaging industry Manish brings deep expertise in manufacturing and customer-centric innovation, bridging technical knowledge with commercial strategy.</p>
             </div>
-            <div className="w-24 h-px bg-gray-200"></div>
-            <div className="grid md:grid-cols-2 gap-10 max-w-md w-full">
-              <div className="text-center">
-                <img src={manishPic} alt="Manish Saluja" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
-                <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
-                <div className="text-gray-500 text-sm">Co-Founder</div>
+            <div className="bg-white rounded-2xl shadow-lg p-8 text-center group hover:shadow-2xl transition-shadow duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <img src={nupurPic} alt="Nupur Saluja" className="w-32 h-32 rounded-full object-cover object-top border-4 border-brand-green/20 group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="text-center">
-                <img src={samarthPic} alt="Samarth" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
-                <div className="font-semibold text-gray-900 mb-1">Samarth</div>
-                <div className="text-gray-500 text-sm">Operations</div>
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <Briefcase className="h-4 w-4 text-brand-green" />
+                <span className="text-sm font-semibold text-brand-green uppercase tracking-wide">Director — Business Development</span>
               </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Nupur Saluja</h3>
+              <p className="text-gray-600 leading-relaxed">With 15+ years of experience in sales, marketing, and business strategy at international MNCs, Nupur brings strategic and customer-centric approach in driving business growth.</p>
+            </div>
+            <div className="bg-white rounded-2xl shadow-lg p-8 text-center group hover:shadow-2xl transition-shadow duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <img src={samarthPic} alt="Samarth Mehta" className="w-32 h-32 rounded-full object-cover object-top border-4 border-brand-green/20 group-hover:scale-105 transition-transform duration-300" />
+              </div>
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <Briefcase className="h-4 w-4 text-brand-green" />
+                <span className="text-sm font-semibold text-brand-green uppercase tracking-wide">Director</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Samarth Mehta</h3>
+              <p className="text-gray-600 leading-relaxed">Founder at Thoutspark, Samarth brings a technology-first perspective. Having built and scaled data-driven businesses across Europe, he specializes in systems that improve operational visibility and enable smarter decision-making.</p>
             </div>
           </div>
         </div>
