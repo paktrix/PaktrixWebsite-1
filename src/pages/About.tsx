@@ -1,6 +1,9 @@
 import { Target, Eye, Award, Users, Globe, TrendingUp } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 import aboutUs from '../assets/aboutUs.jpg';
+import nupurPic from '../assets/nupur_pic.jpeg';
+import manishPic from '../assets/manish_pic.jpeg';
+import samarthPic from '../assets/samarth_pic.jpeg';
 
 export default function About() {
   return (
@@ -159,19 +162,19 @@ export default function About() {
           </h2>
           <div className="flex flex-col items-center gap-10">
             <div className="text-center">
-              <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">NS</div>
+              <img src={nupurPic} alt="Nupur Saluja" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
               <div className="font-semibold text-gray-900 mb-1">Nupur Saluja</div>
               <div className="text-gray-500 text-sm">Founder & Director</div>
             </div>
             <div className="w-24 h-px bg-gray-200"></div>
             <div className="grid md:grid-cols-2 gap-10 max-w-md w-full">
               <div className="text-center">
-                <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">MS</div>
+                <img src={manishPic} alt="Manish Saluja" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
                 <div className="font-semibold text-gray-900 mb-1">Manish Saluja</div>
                 <div className="text-gray-500 text-sm">Co-Founder</div>
               </div>
               <div className="text-center">
-                <div className="w-28 h-28 rounded-full bg-brand-green/10 flex items-center justify-center mx-auto mb-3 text-2xl font-bold text-brand-green">S</div>
+                <img src={samarthPic} alt="Samarth" className="w-28 h-28 rounded-full object-cover mx-auto mb-3 shadow-md" />
                 <div className="font-semibold text-gray-900 mb-1">Samarth</div>
                 <div className="text-gray-500 text-sm">Operations</div>
               </div>
