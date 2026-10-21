@@ -711,80 +711,20 @@ export const industryProducts: Product[] = [
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Corrugated boxes',
-    slug: 'Corrugated boxes',
-    shortDescription: 'Versatile and secure boxes perfect for retail packaging and product display.',
-    description: 'Our Corrugated End Boxes combine durability with crystal-clear visibility, making them ideal for showcasing your products while providing secure closure. These boxes feature convenient tuck-end flaps for easy assembly and reliable protection.',
-    features: [
-      'Crystal-clear material for maximum product visibility',
-      'Secure tuck-end closure mechanism',
-      'Easy to assemble without tools or adhesive',
-      'Available in multiple sizes and thicknesses',
-      'Excellent for retail display and gift packaging',
-      'Recyclable and eco-friendly material'
-    ],
-    specifications: [
-      { label: 'Material', value: 'Premium PET/APET' },
-      { label: 'Thickness', value: '0.3mm - 0.5mm' },
-      { label: 'Finish', value: 'Crystal Clear' },
-      { label: 'Customization', value: 'Size, printing available' },
-      { label: 'Minimum Order', value: '1000 units' }
-    ],
-    applications: [
-      'Cosmetics and beauty products',
-      'Confectionery and food items',
-      'Toys and collectibles',
-      'Electronics accessories',
-      'Gift packaging'
-    ],
-    image: 'https://images.pexels.com/photos/4483942/pexels-photo-4483942.jpeg'
-  },
-  {
-    id: '2',
-    name: 'Mono Boxes',
-    slug: 'mono-carton-box',
-    shortDescription: 'Elegant curved design perfect for small gifts, favors, and premium product packaging.',
-    description: 'Mono Boxes offer a unique and attractive packaging solution with their distinctive curved shape. These boxes are perfect for creating memorable unboxing experiences while maintaining product visibility.',
-    features: [
-      'Distinctive pillow-shaped design',
-      'Easy snap-close assembly',
-      'Perfect for gift packaging and party favors',
-      'Transparent material showcases contents beautifully',
-      'Available in various sizes',
-      'Lightweight yet sturdy construction'
-    ],
-    specifications: [
-      { label: 'Material', value: 'Clear PET' },
-      { label: 'Thickness', value: '0.35mm - 0.4mm' },
-      { label: 'Finish', value: 'High Clarity' },
-      { label: 'Customization', value: 'Size, color tinting available' },
-      { label: 'Minimum Order', value: '500 units' }
-    ],
-    applications: [
-      'Wedding and party favors',
-      'Jewelry and accessories',
-      'Small confectionery items',
-      'Sample products',
-      'Promotional items'
-    ],
-    image: 'https://images.pexels.com/photos/5706281/pexels-photo-5706281.jpeg'
-  },
-  {
-    id: '3',
     name: 'Premium Boxes',
-    slug: 'Premium Boxes',
-    shortDescription: 'Fully customizable boxes with high-quality printing for brand recognition.',
-    description: 'Elevate your brand with our Customized Premium Boxes. Featuring high-resolution printing capabilities, these boxes combine with custom branding to create stunning packaging solutions.',
+    slug: 'premium-boxes-manufacturers',
+    shortDescription: 'Fully customizable premium boxes with high-quality printing for brand recognition and luxury presentation.',
+    description: 'Elevate your brand with our Customized Premium Boxes. Featuring high-resolution printing capabilities, these boxes combine premium materials with custom branding to create stunning packaging solutions that stand out in competitive markets.',
     features: [
       'Full-color custom printing options',
-      'Combine transparency with branded elements',
+      'Combine premium finishes with branded elements',
       'UV-resistant inks for long-lasting quality',
       'Multiple design layouts supported',
-      'White, metallic, or transparent printing available',
+      'Foil stamping and embossing available',
       'Perfect for brand differentiation'
     ],
     specifications: [
-      { label: 'Material', value: 'Premium APET/PET' },
+      { label: 'Material', value: 'Premium rigid board / paperboard' },
       { label: 'Thickness', value: '0.3mm - 0.6mm' },
       { label: 'Printing', value: 'Offset/Screen printing' },
       { label: 'Customization', value: 'Full custom design' },
@@ -800,102 +740,259 @@ export const products: Product[] = [
     image: 'https://images.pexels.com/photos/4792513/pexels-photo-4792513.jpeg'
   },
   {
-    id: '4',
-    name: 'Clear Tubes',
-    slug: 'clear-tubes',
-    shortDescription: 'Cylindrical packaging ideal for rolled products, posters, and unique items.',
-    description: 'Our Clear Tubes provide 360-degree product visibility in a sleek cylindrical format. These tubes are perfect for packaging rolled items, elongated products, or creating unique packaging presentations.',
+    id: '2',
+    name: 'Export Packaging',
+    slug: 'export-packaging-service-providers',
+    shortDescription: 'Heavy-duty export packaging solutions designed for safe domestic and international product transportation.',
+    description: 'Export packaging is essential for businesses involved in domestic and international trade. High-quality export packing boxes protect products from damage during shipping, handling, stacking, and storage while maintaining product quality and presentation.',
     features: [
-      'Complete 360-degree visibility',
-      'Secure end-cap closures',
-      'Various diameter and length options',
-      'Crush-resistant construction',
-      'Ideal for rolled and cylindrical products',
-      'Can be customized with labels or printing'
+      'Protects products during long-distance transportation',
+      'Heavy-duty corrugated materials',
+      'Multi-layer corrugated box options',
+      'Moisture-resistant packaging',
+      'Protective foam and inserts',
+      'Export-safe packaging designs'
     ],
     specifications: [
-      { label: 'Material', value: 'Clear PET' },
-      { label: 'Thickness', value: '0.4mm - 0.5mm' },
-      { label: 'Diameter', value: '30mm - 200mm' },
-      { label: 'Customization', value: 'Length, end caps, labeling' },
+      { label: 'Material', value: 'Heavy-duty corrugated' },
+      { label: 'Thickness', value: 'Double/Triple wall' },
+      { label: 'Finish', value: 'Custom printed' },
+      { label: 'Customization', value: 'Size, printing, inserts' },
       { label: 'Minimum Order', value: '1000 units' }
     ],
     applications: [
-      'Posters and prints',
-      'Bottles and cylindrical products',
-      'Candles',
-      'Textiles and fabrics',
-      'Documents and certificates'
+      'Textiles',
+      'Electronics',
+      'Pharmaceuticals',
+      'Food products',
+      'Automotive parts',
+      'Industrial manufacturing'
+    ],
+    image: 'https://images.pexels.com/photos/4483942/pexels-photo-4483942.jpeg'
+  },
+  {
+    id: '3',
+    name: 'Industrial Packaging Solutions',
+    slug: 'industrial-packaging-solutions',
+    shortDescription: 'Heavy-duty industrial packaging systems designed for machinery, equipment, and industrial products.',
+    description: 'Industrial products require strong and reliable packaging to withstand transportation, storage, and handling challenges. High-quality industrial packaging boxes help protect valuable products from physical damage, environmental exposure, and logistics-related risks.',
+    features: [
+      'Protects heavy and fragile industrial products',
+      'Industrial wooden packaging boxes available',
+      'Heavy-duty corrugated packaging solutions',
+      'Protective foam and cushioning inserts',
+      'Moisture-resistant packaging materials',
+      'Multi-layer protective packaging systems'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Wood / Heavy-duty corrugated' },
+      { label: 'Thickness', value: 'Custom per product' },
+      { label: 'Finish', value: 'Custom printed' },
+      { label: 'Customization', value: 'Size, printing, structure' },
+      { label: 'Minimum Order', value: '500 units' }
+    ],
+    applications: [
+      'Machinery packaging',
+      'Automotive components',
+      'Heavy equipment transportation',
+      'Industrial tools and parts',
+      'Export shipping',
+      'Warehouse and storage'
+    ],
+    image: 'https://images.pexels.com/photos/5706281/pexels-photo-5706281.jpeg'
+  },
+  {
+    id: '4',
+    name: 'Mono Carton Box',
+    slug: 'mono-carton-box',
+    shortDescription: 'Lightweight paperboard mono carton boxes for retail products, cosmetics, pharmaceuticals, and FMCG items.',
+    description: 'Mono box packaging plays an important role in product presentation, branding, and customer experience. A well-designed mono carton box improves shelf visibility, protects products, and helps businesses create a professional market presence.',
+    features: [
+      'Enhances brand identity and product presentation',
+      'Premium paperboard packaging materials',
+      'Matte and gloss lamination',
+      'Gold and silver foil stamping',
+      'Embossing and debossing',
+      'Spot UV and texture finishes'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Premium paperboard / Duplex board' },
+      { label: 'Thickness', value: '0.3mm - 0.5mm' },
+      { label: 'Printing', value: 'Offset/UV printing' },
+      { label: 'Customization', value: 'Size, printing, finishing' },
+      { label: 'Minimum Order', value: '1000 units' }
+    ],
+    applications: [
+      'Cosmetics and beauty products',
+      'Pharmaceuticals',
+      'FMCG products',
+      'Electronics',
+      'Healthcare',
+      'Retail consumer goods'
     ],
     image: 'https://images.pexels.com/photos/8251829/pexels-photo-8251829.jpeg'
   },
   {
     id: '5',
-    name: 'Display Boxes',
-    slug: 'display-boxes',
-    shortDescription: 'Premium display packaging with superior clarity for retail and exhibition use.',
-    description: 'Display Boxes are designed specifically for retail environments and exhibitions where product presentation is paramount. These boxes offer exceptional clarity and sturdy construction to showcase your products in the best light.',
+    name: 'Corrugated Separator',
+    slug: 'corrugated-seperator',
+    shortDescription: 'Protective corrugated separator inserts that prevent product damage during transportation and storage.',
+    description: 'Corrugated separators help organize products inside packaging boxes while reducing product movement and collision during transportation. These separators improve product safety and packaging efficiency for businesses handling delicate or multiple items.',
     features: [
-      'Ultra-clear material for maximum visibility',
-      'Rigid construction for stable display',
-      'Multiple opening styles available',
-      'Stackable design for efficient storage',
-      'Scratch-resistant coating option',
-      'Professional appearance for retail settings'
+      'Prevents product damage during shipping',
+      'Reduces product movement inside packaging',
+      'Improves packaging organization',
+      'Provides cushioning and support',
+      'Cost-effective protective packaging solution',
+      'Suitable for multiple product categories'
     ],
     specifications: [
-      { label: 'Material', value: 'Premium APET' },
-      { label: 'Thickness', value: '0.5mm - 0.8mm' },
-      { label: 'Finish', value: 'Ultra Clear/Anti-glare' },
-      { label: 'Customization', value: 'Size, insert cards, printing' },
-      { label: 'Minimum Order', value: '1500 units' }
+      { label: 'Material', value: 'Corrugated board' },
+      { label: 'Thickness', value: 'Custom per application' },
+      { label: 'Finish', value: 'Unprinted / Custom printed' },
+      { label: 'Customization', value: 'Dimensions, slots, layers' },
+      { label: 'Minimum Order', value: '1000 units' }
     ],
     applications: [
-      'Retail product display',
-      'Collectibles and figurines',
-      'Electronics and gadgets',
-      'Trade show exhibits',
-      'Museum and gallery items'
+      'Bottles and glass products',
+      'Electronics',
+      'Pharmaceuticals',
+      'Automotive components',
+      'FMCG products',
+      'Export packaging'
     ],
     image: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg'
+  },
+  {
+    id: '6',
+    name: 'Die Cut Boxes',
+    slug: 'die-cut-boxes',
+    shortDescription: 'Custom-shaped die cut packaging boxes manufactured with precision die cutting for accurate product fitting.',
+    description: 'Die cut packaging boxes help businesses create packaging that fits products perfectly while improving visual appeal and packaging efficiency. These boxes are widely used for branding, product protection, and optimized packaging performance.',
+    features: [
+      'Provides accurate product fitting',
+      'Enhances product presentation',
+      'Improves packaging durability',
+      'Reduces product movement inside boxes',
+      'Supports custom branding and printing',
+      'Increases shelf appeal and visibility'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Corrugated board / Paperboard' },
+      { label: 'Thickness', value: '0.3mm - 0.8mm' },
+      { label: 'Printing', value: 'Offset/Flexographic' },
+      { label: 'Customization', value: 'Size, shape, printing' },
+      { label: 'Minimum Order', value: '1000 units' }
+    ],
+    applications: [
+      'eCommerce packaging',
+      'Electronics',
+      'FMCG products',
+      'Food and beverage',
+      'Pharmaceuticals',
+      'Retail display'
+    ],
+    image: 'https://images.pexels.com/photos/4483942/pexels-photo-4483942.jpeg'
+  },
+  {
+    id: '7',
+    name: 'Mailer Boxes',
+    slug: 'mailer-box-manufacturer',
+    shortDescription: 'Durable mailer boxes for secure shipping, eCommerce packaging, and subscription box solutions.',
+    description: 'Mailer boxes are designed to provide secure product packaging while enhancing customer experience and brand visibility. Well-designed custom mailer boxes help businesses create professional packaging that improves product presentation and customer satisfaction.',
+    features: [
+      'Protects products during shipping and handling',
+      'Enhances brand presentation and packaging appeal',
+      'Improves customer unboxing experience',
+      'Lightweight and durable packaging',
+      'Supports custom printing and branding',
+      'Ideal for subscription and eCommerce packaging'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Corrugated / Kraft' },
+      { label: 'Thickness', value: '0.3mm - 0.5mm' },
+      { label: 'Printing', value: 'Offset/Digital printing' },
+      { label: 'Customization', value: 'Size, printing, inserts' },
+      { label: 'Minimum Order', value: '500 units' }
+    ],
+    applications: [
+      'eCommerce product shipping',
+      'Subscription box packaging',
+      'Cosmetics and beauty products',
+      'Apparel and fashion accessories',
+      'Food and bakery products',
+      'Gift and promotional packaging'
+    ],
+    image: 'https://images.pexels.com/photos/4792513/pexels-photo-4792513.jpeg'
+  },
+  {
+    id: '8',
+    name: 'Honey Comb Separator',
+    slug: 'honey-comb-seperator',
+    shortDescription: 'Protective honeycomb separator inserts that provide superior cushioning and product protection during transit.',
+    description: 'Honey comb separators help businesses improve product safety by reducing product movement and impact during transportation and storage. Their strong internal structure provides better cushioning and support compared to standard packaging inserts.',
+    features: [
+      'Prevents product damage during shipping',
+      'Provides superior cushioning and protection',
+      'Reduces vibration and impact risks',
+      'Improves product organization inside boxes',
+      'Lightweight packaging for cost efficiency',
+      'Eco-friendly alternative to plastic packaging'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Honeycomb board' },
+      { label: 'Thickness', value: 'Custom per application' },
+      { label: 'Finish', value: 'Unprinted / Custom printed' },
+      { label: 'Customization', value: 'Dimensions, compartments' },
+      { label: 'Minimum Order', value: '1000 units' }
+    ],
+    applications: [
+      'Glass bottle packaging',
+      'Electronics',
+      'Automotive components',
+      'Pharmaceuticals',
+      'Furniture and interior products',
+      'Export and logistics'
+    ],
+    image: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg'
+  },
+  {
+    id: '9',
+    name: 'Paper Box Packaging',
+    slug: 'paper-box-manufacturer',
+    shortDescription: 'Custom paper box packaging solutions for product protection, branding, and premium retail presentation.',
+    description: 'Paper box packaging helps businesses create professional product presentation while protecting products during storage, display, and transportation. Attractive paper packaging improves customer experience and supports better brand visibility in competitive markets.',
+    features: [
+      'Enhances product presentation and branding',
+      'Improves shelf visibility and customer appeal',
+      'Lightweight and durable packaging',
+      'Supports eco-friendly packaging practices',
+      'Cost-effective packaging solutions',
+      'Allows premium customization and printing'
+    ],
+    specifications: [
+      { label: 'Material', value: 'Paperboard / Kraft paper' },
+      { label: 'Thickness', value: '0.3mm - 0.5mm' },
+      { label: 'Printing', value: 'Offset/Digital/UV printing' },
+      { label: 'Customization', value: 'Size, printing, finishing' },
+      { label: 'Minimum Order', value: '1000 units' }
+    ],
+    applications: [
+      'Cosmetics',
+      'Food and beverage',
+      'Pharmaceuticals',
+      'Electronics',
+      'FMCG',
+      'eCommerce'
+    ],
+    image: 'https://images.pexels.com/photos/5706281/pexels-photo-5706281.jpeg'
   }
 ];
 
 // ── Fetch helpers ────────────────────────────────────────────────────────────
 
 export async function fetchProducts(): Promise<Product[]> {
-  const { data, error } = await supabase
-    .from('products')
-    .select(`
-      *,
-      product_categories (
-        display_order
-      )
-    `)
-    .eq('published', true);
-
-  let dbProducts: Product[] = [];
-  if (!error && data && data.length > 0) {
-    const sortedData = [...data].sort((a, b) => {
-      const categoryOrderA = a.product_categories?.display_order ?? 999;
-      const categoryOrderB = b.product_categories?.display_order ?? 999;
-
-      if (categoryOrderA !== categoryOrderB) {
-        return categoryOrderA - categoryOrderB;
-      }
-
-      return (a.display_order ?? 999) - (b.display_order ?? 999);
-    });
-
-    dbProducts = sortedData.map(mapDBProductToProduct);
-  }
-
-  // Merge database products with static industry products, dedup by slug
-  const dbSlugs = new Set(dbProducts.map(p => p.slug));
-  const staticProducts = products.filter(p => !dbSlugs.has(p.slug));
-  const allIndustryProducts = industryProducts.filter(p => !dbSlugs.has(p.slug));
-
-  return [...dbProducts, ...staticProducts, ...allIndustryProducts];
+  return products;
 }
 
 export async function fetchProductBySlug(slug: string): Promise<Product | null> {
