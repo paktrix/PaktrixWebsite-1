@@ -4,26 +4,6 @@ import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { fetchProducts, Product } from '../lib/products';
 
-const categoryOrder = [
-  { title: 'Food Packaging', match: ['cake', 'cookie', 'chocolate', 'sandwich', 'sweet', 'pizza', 'bakery'] },
-  { title: 'Pharma Packaging', match: ['medicine', 'syrup', 'tablet', 'capsule', 'healthcare', 'pharma'] },
-  { title: 'Cosmetics Packaging', match: ['skincare', 'makeup', 'perfume', 'haircare', 'lipstick', 'cosmetic'] },
-  { title: 'Textile Packaging', match: ['garment', 'saree', 'shirt', 'apparel', 'fabric', 'textile'] },
-  { title: 'Gift Box Packaging', match: ['gift', 'jewelry', 'crackers', 'dry fruit', 'dry-fruit'] },
-  { title: 'Other Packaging Solutions', match: [] },
-];
-
-function categoryForProduct(product: Product): string {
-  const slug = product.slug.toLowerCase();
-  const name = product.name.toLowerCase();
-  for (const cat of categoryOrder) {
-    if (cat.match.some(m => slug.includes(m) || name.includes(m))) {
-      return cat.title;
-    }
-  }
-  return 'Other Packaging Solutions';
-}
-
 function ProductCard({ product }: { product: Product }) {
   return (
     <Link
@@ -79,22 +59,6 @@ export default function Products() {
     setIsLoading(false);
   };
 
-  const grouped: { title: string; items: Product[] }[] = [];
-  if (!isLoading) {
-    const groups = new Map<string, Product[]>();
-    for (const product of products) {
-      const cat = categoryForProduct(product);
-      if (!groups.has(cat)) groups.set(cat, []);
-      groups.get(cat)!.push(product);
-    }
-    for (const cat of categoryOrder) {
-      const items = groups.get(cat.title);
-      if (items && items.length > 0) {
-        grouped.push({ title: cat.title, items });
-      }
-    }
-  }
-
   return (
     <div>
       <Helmet>
@@ -120,19 +84,9 @@ export default function Products() {
               <p className="text-gray-600 text-lg">Loading products...</p>
             </div>
           ) : (
-            <div className="space-y-16">
-              {grouped.map((group) => (
-                <div key={group.title}>
-                  <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
-                    {group.title}
-                  </h2>
-                  <div className="w-20 h-1 bg-brand-green rounded mb-8" />
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {group.items.map((product) => (
-                      <ProductCard key={product.id} product={product} />
-                    ))}
-                  </div>
-                </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {products.map((product) => (
+                <ProductCard key={product.id} product={product} />
               ))}
             </div>
           )}
