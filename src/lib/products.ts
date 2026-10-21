@@ -803,10 +803,10 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'Mono Carton Box',
+    name: 'Mono Carton Box Manufacturer & Mono Box Packaging Solutions',
     slug: 'mono-carton-box',
-    shortDescription: 'Lightweight paperboard mono carton boxes for retail products, cosmetics, pharmaceuticals, and FMCG items.',
-    description: 'Mono box packaging plays an important role in product presentation, branding, and customer experience. A well-designed mono carton box improves shelf visibility, protects products, and helps businesses create a professional market presence.',
+    shortDescription: 'Your packaging is the first thing customers notice, and high-quality mono carton box packaging helps create a strong brand impression while protecting your products.',
+    description: 'Your packaging is the first thing customers notice, and high-quality mono carton box packaging helps create a strong brand impression while protecting your products. Whether you are packaging cosmetics, pharmaceuticals, food products, electronics, FMCG items, or retail products, premium mono box packaging enhances presentation, improves shelf appeal, and builds customer trust. We specialize in mono carton box manufacturing and provide customized mono box packaging solutions for businesses across multiple industries. As a trusted mono carton box manufacturer, we create durable, attractive, and high-quality packaging tailored to your branding, product specifications, and packaging requirements. From printed mono cartons to custom-designed packaging boxes, we deliver packaging solutions that combine functionality, durability, and premium presentation.',
     features: [
       'Enhances brand identity and product presentation',
       'Premium paperboard packaging materials',
